@@ -83,10 +83,6 @@ function checkHeader(response, data) {
         }
     }
 
-    console.log("anyChangesToKeys = " + anyChangesToKeys);
-    console.log(orderedKeys);
-    console.log(orderedValues);
-
     return {
         'orderedKeys': orderedKeys,
         'orderedValues': orderedValues,
